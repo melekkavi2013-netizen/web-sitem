@@ -2,30 +2,56 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- GOOGLE ARAMALARI İÇİN META KODLARI -->
     <title>Benim Web Sitem</title>
-    <!-- CSS KODLARI (Tasarım ve Renkler) -->
+    <meta name="description" content="Bu benim kendi kodlarımla tasarladığım ilk canlı web sitem. Projelerimi ve tasarımlarımı burada paylaşıyorum.">
+    
+    <!-- TASARIM VE RENKLER (CSS) -->
     <style>
         body {
+            font-family: Arial, sans-serif;
             background-color: #1e1e2f;
             color: white;
-            font-family: Arial, sans-serif;
             text-align: center;
-            padding-top: 50px;
+            padding: 50px 20px;
+            margin: 0;
         }
-        .kutucuk {
+        .kart {
             background-color: #2e2e4a;
-            border-radius: 12px;
-            padding: 20px;
+            border-radius: 16px;
+            padding: 30px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #4da6ff;
+        }
+        p {
+            color: #d1d1e0;
+            line-height: 1.6;
+        }
+        .buton {
             display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #4da6ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
-    <!-- HTML KODLARI (İçerik ve Yazılar) -->
-    <div class="kutucuk">
-        <h1>Merhaba Dünya!</h1>
-        <p>Ben Melek ve bu benim web sitem</p>
+    <!-- EKRANDA GÖRÜNECEK İÇERİK (HTML) -->
+    <div class="kart">
+        <h1>Hoş Geldiniz!</h1>
+        <p>Bu benim internete yüklediğim ilk canlı web sitem. Zamanla buraya yeni tasarımlar ve projeler ekleyeceğim.</p>
+        <a href="#" class="buton">Projelerimi Gör</a>
     </div>
 
 </body>
